@@ -31,5 +31,9 @@ router.post("/add-product", function(req,res){
   })
 })
 
+router.get("/delete-product",(req,res)=>{
+  
+})
+
 module.exports = router;
  
